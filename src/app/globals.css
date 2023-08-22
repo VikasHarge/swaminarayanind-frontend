@@ -23,7 +23,7 @@
   .heroBg {
     background-image: url('../../hero_background_rotate.svg');
     background-repeat: no-repeat, repeat;
-    background-size: cover;
+    background-size: cover, cover ;
   }
 }
 
