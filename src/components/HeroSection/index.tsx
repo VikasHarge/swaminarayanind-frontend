@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import heroMain from "../../../public/images/heroMain.png";
+import heroMain from "../../../public/images/main.png";
 import classNames from "classnames";
 import FadeText from "../shared/icons/Components/FadeText";
 import { Button } from "../shared/icons/Components/Form/Button";
@@ -58,7 +58,7 @@ const HeroSection = () => {
           </p>
 
           <Button size="md" varient="primary" className="text-sm h-12" >
-            get Quote
+            Get Quote
           </Button>
 
         </div>

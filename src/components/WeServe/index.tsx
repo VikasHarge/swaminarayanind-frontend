@@ -15,7 +15,7 @@ const WeServe = () => {
             We offer one packing solution to wide range of industriess
           </h2>
         </div>
-        <ul className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 md:gap-4 lg:px-12 gap-y-4 md:gap-y-8 lg:gap-y-10" >
+        <ul className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 md:gap-4 lg:px-12 gap-y-4 md:gap-y-8 lg:gap-8 lg:flex-wrap" >
           {
             industries.map((industry)=>(
               <IndustryCard industry={industry} key={industry.title} />

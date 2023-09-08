@@ -78,53 +78,53 @@ export type Industry = {
 
 export const industries : Industry[] = [
     {
-        icon : './services/ecommerce.png',
+        icon : './services/ecommercelogo.jpg',
         title : "E Commerce <br> Industry"
     },
     {
-        icon : './services/chemical.png',
+        icon : './services/chemicallogo.jpg',
         title : "Chemicals & <br> Fertilizers Industry"
     },
     {
-        icon : './services/food.png',
+        icon : './services/foodind.jpg',
         title : "Food & <br> Beverage Industry"
     },
     {
-        icon : './services/textilemanufacturing.png',
+        icon : './services/textile.jpeg',
         title : "Textile <br> Industry"
     },
     {
-        icon : './services/pharmacy.png',
+        icon : './services/pharma.jpg',
         title : "Pharmaceuticals <br> Industry"
     },
     {
-        icon : './services/oilandpetro.png',
+        icon : './services/petro.png',
         title : "Oils & Petro <br> Industry"
     },
 
 
     {
-        icon : './services/homeappliences.png',
+        icon : './services/homeap.png',
         title : "Home Appliance <br> Industry"
     },
     {
-        icon : './services/automotive.png',
+        icon : './services/auto.jpg',
         title : "Automotive <br> Industry"
     },
     {
-        icon : './services/logistics.png',
+        icon : './services/logi.jpg',
         title : "Logistics <br> Industry"
     },
     {
-        icon : './services/manufacturing.png',
+        icon : './services/manu.jpg',
         title : "Manufacturing <br> Industry"
     },
     {
-        icon : './services/shipping.png',
+        icon : './services/ship.jpg',
         title : "Shipping <br> Industry"
     },
     {
-        icon : './services/enginerring.png',
+        icon : './services/eng.jpg',
         title : "Engineering <br> Industry"
     },
 ]

@@ -8,12 +8,10 @@ type IndustryCardProps = {
 
 const IndustryCard = ({ industry }: IndustryCardProps) => {
   return (
-    <li className="flex justify-start items-center flex-col gap-2">
-      <div className="flex justify-center items-center w-14 md:w-16 lg:w-20 aspect-square" >
-        <img src={industry.icon} alt={industry.title}  className="w-full h-full" />
-      </div>
+    <li className="flex group w-full h-fit relative justify-start items-center flex-col gap-2 bg-pr rounded-xl">
+       <img src={industry.icon} alt={industry.title}  className="w-full h-full rounded-xl" />
       <div
-        className="text-primary font-semibold  text-center text-xs md:text-sm lg:text-base"
+        className="text-primary left-4 font-bold rounded-md group-hover:scale-110 transition-all ease-in-out duration-150  scale-100 px-2 py-2 right-4 bg-white absolute bottom-4 leading-none   text-center text-xs md:text-sm lg:text-sm"
         dangerouslySetInnerHTML={{
           __html: industry.title,
         }}
