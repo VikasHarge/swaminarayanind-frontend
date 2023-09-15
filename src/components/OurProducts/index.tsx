@@ -1,7 +1,7 @@
 import React from "react";
-import StyledText from "../shared/icons/Components/StyledText";
 import { ourProducts } from "../../../utils/data";
 import OurProductCard from "./OurProductCard";
+import StyledText from "../Shared/StyledText";
 
 const OurProducts = () => {
   return (

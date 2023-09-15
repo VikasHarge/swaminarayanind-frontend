@@ -1,6 +1,6 @@
 import React from "react";
 import { ProductCard } from "../../../../utils/data";
-import StyledText from "@/components/shared/icons/Components/StyledText";
+import StyledText from "@/components/Shared/StyledText";
 
 type OurProduxtCard = {
   product: ProductCard;

@@ -1,4 +1,7 @@
+const plugin = require("tailwindcss/plugin");
+
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -10,9 +13,13 @@ module.exports = {
       colors: {
         primary: {
           DEFAULT: "#0751bf",
+          1: "#0751bf ",
+          2: "#6366f1 ",
         },
         secondary: {
-          DEFAULT: "#a77c4f",
+          DEFAULT: "#fe5454",
+          1: "#fe5454",
+          2: "#FF2121",
         },
         text: {
           DEFAULT: "#323B4B",
@@ -26,26 +33,37 @@ module.exports = {
       backgroundImage: {
         "hero-background": "url('../public/images/hero_background.svg)",
       },
-      boxShadow : {
-        '3xl' : '0px 0px 13px 1px rgba(0,0,0,0.2)'
+      boxShadow: {
+        "3xl": "0px 0px 13px 1px rgba(0,0,0,0.2)",
       },
 
-      keyframes : {
-        "twinkkle" : {
-          "0%" : {
-            opacity : "0",
-            fill : "#e9e9e9"
+      keyframes: {
+        twinkkle: {
+          "0%": {
+            opacity: "0",
+            fill: "#e9e9e9",
           },
-          "100%" : {
-            opacity : "1",
-            fil : "#3093c8"
-          }
-        }
+          "100%": {
+            opacity: "1",
+            fil: "#3093c8",
+          },
+        },
+        overlayShow: {
+          from: { opacity: 0,  },
+          to: { opacity: 1,  },
+        },
+        contentShow: {
+          from: { opacity: 0, transform: "translate(-50%, -100%) scale(0.96)" },
+          to: { opacity: 1, transform: "translate(-50%, -50%) scale(1)" },
+        },
       },
-      animation : {
-        'twinkkle' : "twinkkle 0.3s ease-in-out repeat"
-      }
+      animation: {
+        twinkkle: "twinkkle 0.3s ease-in-out repeat",
+        overlayShow: "overlayShow  300ms ease-in-out",
+        contentShow: "contentShow  300ms ease-in-out",
+      },
     },
+
     container: {
       center: true,
       padding: {
@@ -53,5 +71,21 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addUtilities }) {
+      const newUtilities = {
+        ".horizontal-tb": {
+          writingMode: "horizontal-tb",
+        },
+        ".vertical-rl": {
+          writingMode: "vertical-rl",
+        },
+        ".vertical-lr": {
+          writingMode: "vertical-lr",
+        },
+      };
+      addUtilities(newUtilities);
+    }),
+    require("@tailwindcss/typography"),
+  ],
 };
