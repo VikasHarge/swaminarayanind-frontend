@@ -1,4 +1,4 @@
-import StyledText from "@/components/Shared/StyledText";
+
 import Link from "next/link";
 import React from "react";
 
@@ -18,7 +18,7 @@ const FooterSectionContainer = ({
 }: FooterSectionContainerProps) => {
   return (
     <div className="flex flex-col gap-1" >
-      <StyledText className="text-xl" >{title}</StyledText>
+      {/* <StyledText className="text-xl" >{title}</StyledText> */}
       <ul className="md:flex md:flex-col gap-2  grid grid-cols-2 " >
         {sectionList.map((item) => (
           <li key={item.label} className="flex flex-row gap-1 justify-start items-center leading-none">

@@ -2,7 +2,6 @@ import Image from "next/image";
 import React, { useState } from "react";
 import heroMain from "../../../public/images/main.png";
 import classNames from "classnames";
-import { Button } from "../Shared/Form/Button";
 import QuotationForm from "../QuotationForm/Index";
 
 const HeroSection = () => {

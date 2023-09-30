@@ -1,13 +1,12 @@
-import { Button } from "@/components/Shared/Form/Button";
-import {
-  FacebookIcon,
-  InstagramIcon,
-  LinkedIcon,
-  TelIcon,
-  TwitterIcon,
-  WhatsappIcon,
-} from "@/components/Shared/Icons";
-import StyledText from "@/components/Shared/StyledText";
+
+// import {
+//   FacebookIcon,
+//   InstagramIcon,
+//   LinkedIcon,
+//   TelIcon,
+//   TwitterIcon,
+//   WhatsappIcon,
+// } from "../../../components/shared/icons";
 import React from "react";
 import ContactNumber from "./ContactNumber";
 import FooterSectionContainer, {
@@ -85,12 +84,12 @@ const Footer = () => {
     <footer className="w-full flex flex-col bg-slate-100 ">
       <div className="w-full flex flex-col gap-8 container items-center  lg:py-8 lg:px-12 border-b border-b-text-1 py-4 footerBg">
         <div className="flex flex-col gap-2 justify-center items-center">
-          <StyledText className="text-lg md:text-3xl text-center">
+          {/* <StyledText className="text-lg md:text-3xl text-center">
             Simplify Packing, Amplify Success.
           </StyledText>
           <Button className="text-base md:text-lg font-bold">
             Lets Connect
-          </Button>
+          </Button> */}
         </div>
         <div className="py-4 flex w-full gap-6">
           <div className=" h-full flex flex-col lg:flex-row md:gap-4 gap-6">
@@ -134,7 +133,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex-1 flex flex-col gap-2">
-              <StyledText className="text-xl">Connect with us</StyledText>
+              {/* <StyledText className="text-xl">Connect with us</StyledText> */}
               <div className="flex flex-col gap-6">
                 <div className="md:flex grid grid-cols-2 md:flex-col gap-2 divide-x">
                   <ContactNumber telNumber="9764839434" />
@@ -146,7 +145,7 @@ const Footer = () => {
                   </address>
                 </div>
 
-                <ul className="flex flex-row gap-3 md:justify-start md:items-start w-full justify-center items-center">
+                {/* <ul className="flex flex-row gap-3 md:justify-start md:items-start w-full justify-center items-center">
                   <li>
                     <a>
                       <WhatsappIcon className="w-8 h-8 fill-text-2 " />
@@ -172,7 +171,7 @@ const Footer = () => {
                       <LinkedIcon className="w-8 h-8 fill-text-2 " />
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>

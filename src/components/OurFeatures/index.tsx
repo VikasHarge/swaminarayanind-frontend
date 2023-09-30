@@ -1,7 +1,6 @@
 import React from "react";
 import OurFeatureCard from "./OurFeatureCard";
 import OurServiceCard from "./ServiceCard";
-import StyledText from "../Shared/StyledText";
 
 export type ServiceCad = { icon: string; heading: string; discr: string };
 
@@ -53,9 +52,9 @@ const OurFeatures = () => {
   return (
     <div className="container py-8 lg:px-12">
       <div className="flex flex-col gap:1 lg:gap-2 items-center">
-        <StyledText className="text-lg md:text-xl lg:text-2xl text-center w-full">
+        {/* <StyledText className="text-lg md:text-xl lg:text-2xl text-center w-full">
           Complete, Stand Alone Packing Solutions.
-        </StyledText>
+        </StyledText> */}
         <h1 className="text-center text-xl md:text-2xl lg:text-3xl font-bold text-text-2">
           We are One of the Leading Corrugated Box Manufacturers <br></br> &
           Suppliers in Mumbai, India
@@ -82,10 +81,10 @@ const OurFeatures = () => {
 
             <div className="flex-1 flex justify-center items-center">
               <div className=" md:pl-4">
-                <StyledText className="text-lg md:text-xl lg:text-2xl text-center md:text-left  mb-4">
+                {/* <StyledText className="text-lg md:text-xl lg:text-2xl text-center md:text-left  mb-4">
                   We Manufacture All Types of Corrugated Boxes, Carton Boxes,
                   Corrugated Sheets & Pads within your budget.
-                </StyledText>
+                </StyledText> */}
 
                 <ul className="flex pl-2 md:pl-4 flex-col h-full justify-between gap-6 md:gap-8">
                   {serviceCards.map((card, index) => (

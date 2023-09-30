@@ -1,4 +1,4 @@
-import { Button } from "@/components/Shared/Form/Button";
+
 import Image from "next/image";
 import React from "react";
 
@@ -10,9 +10,9 @@ const NavBar = () => {
           <img src="/snLogoSmall.png" alt='main logo' className=" object-cover w-full h-full" />
         </div>
         <div>
-          <Button size="md" varient="primary" className="text-xs py-2 h-10" >
+          {/* <Button size="md" varient="primary" className="text-xs py-2 h-10" >
             Contact Us
-          </Button>
+          </Button> */}
         </div>
       </div>
     </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import { ProductCard } from "../../../../utils/data";
-import StyledText from "@/components/Shared/StyledText";
 
 type OurProduxtCard = {
   product: ProductCard;
@@ -19,7 +18,7 @@ const OurProductCard = ({ product }: OurProduxtCard) => {
           />
         </div>
         <div>
-          <StyledText>{product.name}</StyledText>
+          {/* <StyledText>{product.name}</StyledText> */}
           <p className="text-xs text-text-3 line-clamp-3 ">{product.discr}</p>
         </div>
       </div>
