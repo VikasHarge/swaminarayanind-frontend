@@ -10,9 +10,9 @@ const QuotationForm = () => {
     <>
       <Dialog.Root>
         <Dialog.Trigger asChild>
-          <Button size="md" varient="primary" className="text-sm h-12">
+          {/* <Button size="md" varient="primary" className="text-sm h-12">
             Get Quote
-          </Button>
+          </Button> */}
         </Dialog.Trigger>
         <Dialog.Portal>
           <Dialog.Overlay className="bg-black bg-opacity-30 data-[state=open]:animate-overlayShow fixed inset-0" />

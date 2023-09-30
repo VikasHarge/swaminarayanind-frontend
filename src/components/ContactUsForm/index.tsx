@@ -97,7 +97,7 @@ const ContactUsForm = () => {
               <h4 className="text-base md:text-xl text-center font-bold text-text-4">
                 Get in Touch
               </h4>
-              <div className="p-4 flex flex-col gap-4 ">
+              {/* <div className="p-4 flex flex-col gap-4 ">
                 <Input<ContactValues>
                   name="full_name"
                   placeholder="Full Name"
@@ -114,21 +114,11 @@ const ContactUsForm = () => {
                   placeholder="Order Details (optional)"
                 />
                 <div>
-                  {/* <Reaptcha
-                    sitekey={NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-                    onVerify={(token: string) => {
-                      setFieldValue("g_recaptcha_response", token);
-                    }}
-                    onLoad={() => setIsRecaptchaLoaded(true)}
-                    onExpire={() => setFieldValue("g_recaptcha_response", "")}
-                    ref={recaptchRef}
-                    explicit
-                  /> */}
                   <Button type="submit" onClick={submitForm}>
                     SEND
                   </Button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </Form>

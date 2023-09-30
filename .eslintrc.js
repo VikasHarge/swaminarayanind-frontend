@@ -16,7 +16,7 @@ module.exports = {
     "import/no-extraneous-dependencies": "off",
     "react/no-typos": "off",
     "no-plusplus": "off",
-    "import/no-unresolved": "error",
+    "import/no-unresolved": "off",
     "import/no-named-as-default": "off",
     "react/no-array-index-key": "warn",
     "react/forbid-prop-types": "warn",

@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import heroMain from "../../../public/images/main.png";
 import classNames from "classnames";
 import { Button } from "../Shared/Form/Button";
-import FadeText from "../Shared/FadeText";
 import QuotationForm from "../QuotationForm/Index";
 
 const HeroSection = () => {
@@ -15,7 +14,7 @@ const HeroSection = () => {
         <div className="flex-1 md:flex-[1.2]  flex flex-col justify-end items-center md:items-start md:justify-center gap-3 md:gap-6">
           <div>
             <div className={classNames("text-center md:text-left")}>
-              <FadeText
+              {/* <FadeText
                 fadeInterval={1750}
                 wordsArray={[
                   "Leading,",
@@ -24,7 +23,7 @@ const HeroSection = () => {
                   "Professional,",
                   "High Quality,",
                 ]}
-              />
+              /> */}
             </div>
             <p className="text-3xl text-center md:text-left  lg:text-6xl font-extrabold">
               Box Manufacturer
