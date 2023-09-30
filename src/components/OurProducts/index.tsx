@@ -1,7 +1,8 @@
+import StyledText from "@components/Shared/StyledText";
 import React from "react";
-import { ourProducts } from "../../../utils/data";
 import OurProductCard from "./OurProductCard";
-import StyledText from "../Shared/StyledText";
+import { ourProducts } from "@util/data";
+
 
 const OurProducts = () => {
   return (

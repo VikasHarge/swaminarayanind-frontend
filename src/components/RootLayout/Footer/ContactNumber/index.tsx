@@ -1,4 +1,5 @@
-import { TelIcon } from '@/components/Shared/Icons'
+
+import { TelIcon } from '@components/Shared/icons'
 import React from 'react'
 
 type ContactNumberPros = {

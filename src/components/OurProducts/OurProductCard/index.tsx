@@ -1,6 +1,6 @@
+import StyledText from "@components/Shared/StyledText";
 import React from "react";
-import { ProductCard } from "../../../../utils/data";
-import StyledText from "@/components/Shared/StyledText";
+import { ProductCard } from "@util/data";
 
 type OurProduxtCard = {
   product: ProductCard;

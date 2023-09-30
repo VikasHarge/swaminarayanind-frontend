@@ -1,7 +1,7 @@
+import StyledText from '@components/Shared/StyledText'
 import React from 'react'
-import { industries } from '../../../utils/data'
 import IndustryCard from './IndustryCard'
-import StyledText from '../Shared/StyledText'
+import { industries } from '@util/data'
 
 const WeServe = () => {
   return (

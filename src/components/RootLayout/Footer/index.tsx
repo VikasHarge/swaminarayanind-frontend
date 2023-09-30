@@ -1,18 +1,12 @@
-import { Button } from "@/components/Shared/Form/Button";
-import {
-  FacebookIcon,
-  InstagramIcon,
-  LinkedIcon,
-  TelIcon,
-  TwitterIcon,
-  WhatsappIcon,
-} from "@/components/Shared/Icons";
-import StyledText from "@/components/Shared/StyledText";
+
 import React from "react";
 import ContactNumber from "./ContactNumber";
 import FooterSectionContainer, {
   FooterSectionList,
 } from "./FooterSectionContainer";
+import StyledText from "@components/Shared/StyledText";
+import { Button } from "@components/Shared/Form/Button";
+import { FacebookIcon, InstagramIcon, LinkedIcon, TwitterIcon, WhatsappIcon } from "@components/Shared/icons";
 
 const ResourcesData: FooterSectionList[] = [
   {

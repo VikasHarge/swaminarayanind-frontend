@@ -1,12 +1,12 @@
 "use client";
 import classNames from "classnames";
 import React, { useState, createRef, useEffect } from "react";
-import Input from "../Shared/Form/Input";
+
 import { Form, Formik } from "formik";
 import * as Yup from "yup";
-import { Button } from "../Shared/Form/Button";
 import Reaptcha from "reaptcha";
-import { NEXT_PUBLIC_RECAPTCHA_SITE_KEY } from "@/Constant/environment";
+import { Button } from "@components/Shared/Form/Button";
+import Input from "@components/Shared/Form/Input";
 
 export type ContactValues = {
   company_name?: string;

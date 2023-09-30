@@ -1,5 +1,5 @@
+import { Industry } from "@util/data";
 import React from "react";
-import { Industry } from "../../../../utils/data";
 
 
 type IndustryCardProps = {

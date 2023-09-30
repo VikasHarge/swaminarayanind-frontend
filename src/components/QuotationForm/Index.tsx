@@ -1,8 +1,7 @@
 "use client";
 import React, { useState } from "react";
-
-import { Button } from "../Shared/Form/Button";
 import * as Dialog from "@radix-ui/react-dialog";
+import { Button } from "@components/Shared/Form/Button";
 
 const QuotationForm = () => {
   const [isQuotationOpen, setIsQuotationOpen] = useState<boolean>(false);

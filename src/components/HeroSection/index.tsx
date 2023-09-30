@@ -1,10 +1,8 @@
-import Image from "next/image";
-import React, { useState } from "react";
-import heroMain from "../../../public/images/main.png";
+import QuotationForm from "@components/QuotationForm/Index";
+import FadeText from "@components/Shared/FadeText";
 import classNames from "classnames";
-import { Button } from "../Shared/Form/Button";
-import FadeText from "../Shared/FadeText";
-import QuotationForm from "../QuotationForm/Index";
+import Image from "next/image";
+
 
 const HeroSection = () => {
 

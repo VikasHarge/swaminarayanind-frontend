@@ -1,7 +1,8 @@
+import StyledText from "@components/Shared/StyledText";
 import React from "react";
 import OurFeatureCard from "./OurFeatureCard";
 import OurServiceCard from "./ServiceCard";
-import StyledText from "../Shared/StyledText";
+
 
 export type ServiceCad = { icon: string; heading: string; discr: string };
 

@@ -1,4 +1,5 @@
-import StyledText from "@/components/Shared/StyledText";
+
+import StyledText from "@components/Shared/StyledText";
 import Link from "next/link";
 import React from "react";
 
