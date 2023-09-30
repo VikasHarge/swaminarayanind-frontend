@@ -10,7 +10,7 @@ module.exports = {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "import/extensions": "off",
-    "no-unused-vars": "warn",
+    "no-unused-vars": "off",
     "import/order": "off",
     "react/jsx-props-no-spreading": "off",
     "import/no-extraneous-dependencies": "off",
