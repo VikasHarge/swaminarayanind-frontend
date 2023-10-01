@@ -1,4 +1,5 @@
-import QuotationForm from "@components/QuotationForm/Index";
+
+import QuotationForm from "@components/QuotationForm";
 import FadeText from "@components/Shared/FadeText";
 import classNames from "classnames";
 
