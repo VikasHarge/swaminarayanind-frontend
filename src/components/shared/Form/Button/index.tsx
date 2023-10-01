@@ -14,7 +14,7 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 
-export const Button : FC<ButtonProps> = ({
+const Button : FC<ButtonProps> = ({
     varient = 'primary',
     color = 'primary',
     size = 'sm',
@@ -49,3 +49,5 @@ export const Button : FC<ButtonProps> = ({
         </button>
     )
 }
+
+export default Button

@@ -5,8 +5,8 @@ import FooterSectionContainer, {
   FooterSectionList,
 } from "./FooterSectionContainer";
 import StyledText from "@components/Shared/StyledText";
-import { Button } from "@components/Shared/Form/Button";
 import { FacebookIcon, InstagramIcon, LinkedIcon, TwitterIcon, WhatsappIcon } from "@components/Shared/icons";
+import Button from "@components/Shared/Form/Button";
 
 const ResourcesData: FooterSectionList[] = [
   {

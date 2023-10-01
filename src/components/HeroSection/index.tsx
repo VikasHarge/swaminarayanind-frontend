@@ -1,7 +1,6 @@
 import QuotationForm from "@components/QuotationForm/Index";
 import FadeText from "@components/Shared/FadeText";
 import classNames from "classnames";
-import Image from "next/image";
 
 
 const HeroSection = () => {

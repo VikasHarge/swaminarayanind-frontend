@@ -1,5 +1,5 @@
 
-import { Button } from "@components/Shared/Form/Button";
+import Button from "@components/Shared/Form/Button";
 import Image from "next/image";
 import React from "react";
 

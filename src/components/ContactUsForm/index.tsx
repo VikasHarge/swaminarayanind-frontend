@@ -5,8 +5,9 @@ import React, { useState, createRef, useEffect } from "react";
 import { Form, Formik } from "formik";
 import * as Yup from "yup";
 import Reaptcha from "reaptcha";
-import { Button } from "@components/Shared/Form/Button";
 import Input from "@components/Shared/Form/Input";
+import Button from "@components/Shared/Form/Button";
+
 
 export type ContactValues = {
   company_name?: string;
